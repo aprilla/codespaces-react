@@ -13,7 +13,17 @@
     "customizations": {
       "codespaces": {
         "openFiles": ["src/App.js"]
-      }
+	},
+	"vscode": {
+		"extensions": [
+			"burkeholland.react-food-truck"
+		],
+    "settings": {
+      "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+      },
+    }
+	}
     },
     "onCreateCommand": "npm install && npm run build",
     "postCreateCommand": "",
