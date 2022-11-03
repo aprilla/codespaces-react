@@ -13,7 +13,12 @@
     "customizations": {
       "codespaces": {
         "openFiles": ["src/App.js"]
-      }
+	},
+	"vscode": {
+		"extensions": [
+			"dbaeumer.vscode-eslint"
+		]
+	}
     },
     "onCreateCommand": "npm install && npm run build",
     "postCreateCommand": "",
